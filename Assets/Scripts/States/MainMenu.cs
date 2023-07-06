@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainMenu : MonoBehaviour
+public class MainMenuState : State
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void EnterState(GameManager gameManager)
     {
-        
+        this.gameManager = gameManager;
+        // Insert code to handle entering the main menu state here
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-        
+        // Insert code to handle updates in the main menu state here
+    }
+
+    public override void ExitState()
+    {
+        // Insert code to handle exiting the main menu state here
     }
 }
