@@ -17,7 +17,7 @@ public class GameManager : Singleton<GameManager>
     protected override void Awake() 
     {
         base.Awake();
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject); //this line persists the GameManager in between scenes
     }
 
     // This can be called to switch to a different state
