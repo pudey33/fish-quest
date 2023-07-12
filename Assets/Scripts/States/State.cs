@@ -6,6 +6,7 @@ using UnityEngine;
 public abstract class State
 {
     protected GameManager gameManager;
+    public string name;
 
     // public void GameState(GameManager gameManager)
     // {
