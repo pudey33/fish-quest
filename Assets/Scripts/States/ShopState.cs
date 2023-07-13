@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class ShopState : State
 {
-    public string stateName = "Shop";
     public override void EnterState(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        this.name = stateName;
+        this.name = "Shop";
     }
 
     public override void Update()

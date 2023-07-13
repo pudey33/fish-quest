@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class PauseMenu : State
 {
-    public string stateName = "Pause";
     public override void EnterState(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        this.name = stateName;
+        this.name = "Pause";
     }
 
     public override void Update()
