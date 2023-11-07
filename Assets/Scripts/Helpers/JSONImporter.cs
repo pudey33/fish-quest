@@ -1,38 +1,33 @@
+using System.Runtime.Serialization;
+using System;
+using System.Security.AccessControl;
 using System.Collections.Generic;
-using UnityEngine;
 using System.IO;
+using UnityEngine;
+using Newtonsoft.Json;
 
 public class JSONImporter
 {
     public static List<Fish> ImportFishData(string filePath)
     {
-        List<Fish> fishList = new List<Fish>();
+        List<Fish> fishList = null;
 
-        if (File.Exists(filePath))
+        try
         {
             string json = File.ReadAllText(filePath);
-            JSONObject jsonObject = new JSONObject(json);
-
-            foreach (JSONObject fishObject in jsonObject.list)
-            {
-                int depthRange = (int)fishObject.GetField("depthRange").n;
-                int rarity = (int)fishObject.GetField("rarity").n;
-                int moneyRange = (int)fishObject.GetField("moneyRange").n;
-                int starLevel = (int)fishObject.GetField("starLevel").n;
-                int lengthRange = (int)fishObject.GetField("lengthRange").n;
-                int lureChance = (int)fishObject.GetField("lureChance").n;
-                int lureLevel = (int)fishObject.GetField("lureLevel").n;
-
-                Fish fish = new Fish(depthRange, rarity, moneyRange, starLevel, lengthRange, lureChance, lureLevel);
-                fishList.Add(fish);
-            }
+            UnityEngine.Debug.Log("File Contents: " + json);
+            fishList = JsonConvert.DeserializeObject<List<Fish>>(json);
+            UnityEngine.Debug.Log("fish 0: " + fishList[0].name);
         }
-        else
+        catch (FileNotFoundException e)
         {
-            Debug.LogError("File not found at path: " + filePath);
+            Debug.LogError("File not found at path: " + filePath + "error: " + e.Message);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error importing fish data: " + e.Message);
         }
 
         return fishList;
     }
 }
-
