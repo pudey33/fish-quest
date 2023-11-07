@@ -5,13 +5,10 @@ using UnityEngine;
 
 public class FishingState : State
 {
-    public string sceneName = "FishingScene";
-
     public override void EnterState(GameManager gameManager)
     {
         this.gameManager = gameManager;
-        this.stateName = "Fishing";
-        SceneManager.LoadScene(sceneName);
+        this.stateName = "Fishing"; //has to match the name of a gameobject with this state inside of it
     }
 
     public override void Update()
