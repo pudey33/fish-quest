@@ -1,21 +1,14 @@
-public class Fish
-{
-    public int DepthRange { get; set; }
-    public int Rarity { get; set; }
-    public int MoneyRange { get; set; }
-    public int StarLevel { get; set; }
-    public int LengthRange { get; set; }
-    public int LureChance { get; set; }
-    public int LureLevel { get; set; }
+using System.Collections.Generic;
 
-    public Fish(int depthRange, int rarity, int moneyRange, int starLevel, int lengthRange, int lureChance, int lureLevel)
+// Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+    public class Fish
     {
-        DepthRange = depthRange;
-        Rarity = rarity;
-        MoneyRange = moneyRange;
-        StarLevel = starLevel;
-        LengthRange = lengthRange;
-        LureChance = lureChance;
-        LureLevel = lureLevel;
+        public string name { get; set; }
+        public int depthRange { get; set; }
+        public int rarity { get; set; }
+        public int moneyRange { get; set; }
+        public int starLevel { get; set; }
+        public int lengthRange { get; set; }
+        public int lureChance { get; set; }
+        public int lureLevel { get; set; }
     }
-}

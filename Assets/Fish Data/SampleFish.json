@@ -1,104 +1,102 @@
-{
-  "Sample Fish": [
-    {
-      "name": "Dank Fish",
-      "depthRange": 10,
-      "rarity": 5,
-      "moneyRange": 100,
-      "starLevel": 5,
-      "lengthRange": 20,
-      "lureChance": 80,
-      "lureLevel": 3
-    },
-    {
-      "name": "Dragonfire Fish",
-      "depthRange": 20,
-      "rarity": 4,
-      "moneyRange": 80,
-      "starLevel": 4,
-      "lengthRange": 15,
-      "lureChance": 70,
-      "lureLevel": 2
-    },
-    {
-      "name": "Phoenix Feather Fish",
-      "depthRange": 30,
-      "rarity": 3,
-      "moneyRange": 60,
-      "starLevel": 3,
-      "lengthRange": 25,
-      "lureChance": 60,
-      "lureLevel": 1
-    },
-    {
-      "name": "Kraken's Tentacle Fish",
-      "depthRange": 40,
-      "rarity": 2,
-      "moneyRange": 40,
-      "starLevel": 2,
-      "lengthRange": 10,
-      "lureChance": 50,
-      "lureLevel": 1
-    },
-    {
-      "name": "Siren's Song Fish",
-      "depthRange": 50,
-      "rarity": 1,
-      "moneyRange": 20,
-      "starLevel": 1,
-      "lengthRange": 5,
-      "lureChance": 40,
-      "lureLevel": 1
-    },
-    {
-      "name": "Moonstone Fish",
-      "depthRange": 60,
-      "rarity": 2,
-      "moneyRange": 30,
-      "starLevel": 2,
-      "lengthRange": 15,
-      "lureChance": 50,
-      "lureLevel": 2
-    },
-    {
-      "name": "Stank Fish",
-      "depthRange": 70,
-      "rarity": 3,
-      "moneyRange": 50,
-      "starLevel": 3,
-      "lengthRange": 30,
-      "lureChance": 60,
-      "lureLevel": 2
-    },
-    {
-      "name": "Enchanted Coral Fish",
-      "depthRange": 80,
-      "rarity": 4,
-      "moneyRange": 70,
-      "starLevel": 4,
-      "lengthRange": 25,
-      "lureChance": 70,
-      "lureLevel": 3
-    },
-    {
-      "name": "Crystal Winged Fish",
-      "depthRange": 90,
-      "rarity": 5,
-      "moneyRange": 90,
-      "starLevel": 5,
-      "lengthRange": 35,
-      "lureChance": 80,
-      "lureLevel": 3
-    },
-    {
-      "name": "Mystic Pearl Fish",
-      "depthRange": 100,
-      "rarity": 5,
-      "moneyRange": 100,
-      "starLevel": 5,
-      "lengthRange": 40,
-      "lureChance": 90,
-      "lureLevel": 4
-    }
-  ]
-}
+[
+  {
+    "name": "Dank Fish",
+    "depthRange": 10,
+    "rarity": 5,
+    "moneyRange": 100,
+    "starLevel": 5,
+    "lengthRange": 20,
+    "lureChance": 80,
+    "lureLevel": 3
+  },
+  {
+    "name": "Dragonfire Fish",
+    "depthRange": 20,
+    "rarity": 4,
+    "moneyRange": 80,
+    "starLevel": 4,
+    "lengthRange": 15,
+    "lureChance": 70,
+    "lureLevel": 2
+  },
+  {
+    "name": "Phoenix Feather Fish",
+    "depthRange": 30,
+    "rarity": 3,
+    "moneyRange": 60,
+    "starLevel": 3,
+    "lengthRange": 25,
+    "lureChance": 60,
+    "lureLevel": 1
+  },
+  {
+    "name": "Kraken's Tentacle Fish",
+    "depthRange": 40,
+    "rarity": 2,
+    "moneyRange": 40,
+    "starLevel": 2,
+    "lengthRange": 10,
+    "lureChance": 50,
+    "lureLevel": 1
+  },
+  {
+    "name": "Siren's Song Fish",
+    "depthRange": 50,
+    "rarity": 1,
+    "moneyRange": 20,
+    "starLevel": 1,
+    "lengthRange": 5,
+    "lureChance": 40,
+    "lureLevel": 1
+  },
+  {
+    "name": "Moonstone Fish",
+    "depthRange": 60,
+    "rarity": 2,
+    "moneyRange": 30,
+    "starLevel": 2,
+    "lengthRange": 15,
+    "lureChance": 50,
+    "lureLevel": 2
+  },
+  {
+    "name": "Stank Fish",
+    "depthRange": 70,
+    "rarity": 3,
+    "moneyRange": 50,
+    "starLevel": 3,
+    "lengthRange": 30,
+    "lureChance": 60,
+    "lureLevel": 2
+  },
+  {
+    "name": "Enchanted Coral Fish",
+    "depthRange": 80,
+    "rarity": 4,
+    "moneyRange": 70,
+    "starLevel": 4,
+    "lengthRange": 25,
+    "lureChance": 70,
+    "lureLevel": 3
+  },
+  {
+    "name": "Crystal Winged Fish",
+    "depthRange": 90,
+    "rarity": 5,
+    "moneyRange": 90,
+    "starLevel": 5,
+    "lengthRange": 35,
+    "lureChance": 80,
+    "lureLevel": 3
+  },
+  {
+    "name": "Mystic Pearl Fish",
+    "depthRange": 100,
+    "rarity": 5,
+    "moneyRange": 100,
+    "starLevel": 5,
+    "lengthRange": 40,
+    "lureChance": 90,
+    "lureLevel": 4
+  }
+]
