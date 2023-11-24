@@ -15,9 +15,7 @@ public class JSONImporter
         try
         {
             string json = File.ReadAllText(filePath);
-            UnityEngine.Debug.Log("File Contents: " + json);
             fishList = JsonConvert.DeserializeObject<List<Fish>>(json);
-            UnityEngine.Debug.Log("fish 0: " + fishList[0].name);
         }
         catch (FileNotFoundException e)
         {

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Dank Fish",
+    "depthMin": 75,
+    "depthMax": 100,
+    "rarity": 2,
+    "baseMoney": 500,
+    "starLevel": 5,
+    "lengthMin": 20,
+    "lengthMax": 30,
+    "lureChance": 80,
+    "lureLevel": 3
+  },
+  {
+    "name": "Dragonfire Fish",
+    "depthMin": 10,
+    "depthMax": 100,
+    "rarity": 1,
+    "baseMoney": 80,
+    "starLevel": 4,
+    "lengthMin": 15,
+    "lengthMax": 30,
+    "lureChance": 70,
+    "lureLevel": 2
+  },
+  {
+    "name": "Phoenix Feather Fish",
+    "depthMin": 10,
+    "depthMax": 100,
+    "rarity": 1,
+    "baseMoney": 60,
+    "starLevel": 3,
+    "lengthMin": 25,
+    "lengthMax": 30,
+    "lureChance": 60,
+    "lureLevel": 1
+  }
+]
